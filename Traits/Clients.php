@@ -27,7 +27,7 @@ trait Clients{
     */
     public function saveClient($id = false, $data = false)
     {
-        if(!count($data)){
+        if(!$data){
              $this->set_error_data(__FUNCTION__);
         }
 
