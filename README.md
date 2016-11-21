@@ -18,59 +18,129 @@ $toggl->startTimer($data);
 
 ## Methods
 ### Clients
-`getClients($id)`
-`getClientProjects($id)`
-`saveClient($id, $data)`
-`deleteClient($id)`
+```php
+getClients($id)
+```
+```php
+getClientProjects($id)
+```
+```php
+saveClient($id, $data)
+```
+```php
+deleteClient($id)
+```
 
 ### Dashboard
-`getDashboard($workspace_id)`
+```php
+getDashboard($workspace_id)
+```
 
 ### Me
-`getMe()`
-`saveMe($data)`
-`resetApiKey()`
+```php
+getMe()
+```
+```php
+saveMe($data)
+```
+```php
+resetApiKey()
+```
 
 ### Projects
-`getProject($id)`
-`getProjectTasks($id)`
-`saveProject($id, $data)`
-`deleteProject($id)`
-`getProjectUsers($project_id)`
-`saveProjectUser($id, $data)`
-`deleteProjectUser($id)`
+```php
+getProject($id)
+```
+```php
+getProjectTasks($id)
+```
+```php
+saveProject($id, $data)
+```
+```php
+deleteProject($id)
+```
+```php
+getProjectUsers($project_id)
+```
+```php
+saveProjectUser($id, $data)
+```
+```php
+deleteProjectUser($id)
+```
 
 ### Tags
-`saveTag($id, $data)`
-`deleteTag($id)`
+```php
+saveTag($id, $data)
+```
+```php
+deleteTag($id)
+```
 
 ### Tasks
-`getTask($id)`
-`saveTask($id, $data)`
-`deleteTask($id)`
+```php
+getTask($id)
+```
+```php
+saveTask($id, $data)
+```
+```php
+deleteTask($id)
+```
 
 ### Time Entries
-`getTimeEntry($id)`
-`getTimer()`
-`saveTimeEntry($id, $data, $start_timer)`
-`startTimer($data)`
-`stopTimer($id)`
+```php
+getTimeEntry($id)
+```
+```php
+getTimer()
+```
+```php
+saveTimeEntry($id, $data, $start_timer)
+```
+```php
+startTimer($data)
+```
+```php
+stopTimer($id)
+```
 
 ### Users
-`createUser($data)`
+```php
+createUser($data)
+```
 
 ### Workspaces
-`getWorkspaces($id)`
-`getWorkspaceUsers($id)`
-`getWorkspaceClients($id)`
-`getWorkspaceProjects($id)`
-`getWorkspaceTasks($id)`
-`getWorkspaceTags($id)`
-`updateWorkspace($id, $data)`
+```php
+getWorkspaces($id)
+```
+```php
+getWorkspaceUsers($id)
+```
+```php
+getWorkspaceClients($id)
+```
+```php
+getWorkspaceProjects($id)
+```
+```php
+getWorkspaceTasks($id)
+```
+```php
+getWorkspaceTags($id)
+```
+```php
+updateWorkspace($id, $data)
+```
 
 ### Workspace Users
-`inviteUsers($id, $email)`
-`deleteWorkspaceUser($id)`
+```php
+inviteUsers($id, $email)
+```
+```php
+deleteWorkspaceUser($id)
+```
 
 ## More info
 Full documentation will be up here shortly; but for now, all methods are fully documented within the code.
