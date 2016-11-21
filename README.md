@@ -7,6 +7,7 @@ PHP library for the [Toggl Timetracker](https://toggl.com)  API (v8)
 
 ### Download
 Download the zip or `git clone git@github.com:ggdx/php-toggl.git`
+
 **Dependencies:** PHP >= 5.5.9 and [Guzzle](https://github.com/guzzle/guzzle) >=6.2
 
 ### Example:
