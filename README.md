@@ -19,127 +19,127 @@ $toggl->startTimer($data);
 ## Methods
 ### Clients
 ```php
-getClients($id)
+$toggl->getClients($id);
 ```
 ```php
-getClientProjects($id)
+$toggl->getClientProjects($id);
 ```
 ```php
-saveClient($id, $data)
+$toggl->saveClient($id, $data);
 ```
 ```php
-deleteClient($id)
+$toggl->deleteClient($id);
 ```
 
 ### Dashboard
 ```php
-getDashboard($workspace_id)
+$toggl->getDashboard($workspace_id);
 ```
 
 ### Me
 ```php
-getMe()
+$toggl->getMe();
 ```
 ```php
-saveMe($data)
+$toggl->saveMe($data);
 ```
 ```php
-resetApiKey()
+$toggl->resetApiKey();
 ```
 
 ### Projects
 ```php
-getProject($id)
+$toggl->getProject($id);
 ```
 ```php
-getProjectTasks($id)
+$toggl->getProjectTasks($id);
 ```
 ```php
-saveProject($id, $data)
+$toggl->saveProject($id, $data);
 ```
 ```php
-deleteProject($id)
+$toggl->deleteProject($id);
 ```
 ```php
-getProjectUsers($project_id)
+$toggl->getProjectUsers($project_id);
 ```
 ```php
-saveProjectUser($id, $data)
+$toggl->saveProjectUser($id, $data);
 ```
 ```php
-deleteProjectUser($id)
+$toggl->deleteProjectUser($id);
 ```
 
 ### Tags
 ```php
-saveTag($id, $data)
+$toggl->saveTag($id, $data);
 ```
 ```php
-deleteTag($id)
+$toggl->deleteTag($id);
 ```
 
 ### Tasks
 ```php
-getTask($id)
+$toggl->getTask($id);
 ```
 ```php
-saveTask($id, $data)
+$toggl->saveTask($id, $data);
 ```
 ```php
-deleteTask($id)
+$toggl->deleteTask($id);
 ```
 
 ### Time Entries
 ```php
-getTimeEntry($id)
+$toggl->getTimeEntry($id);
 ```
 ```php
-getTimer()
+$toggl->getTimer();
 ```
 ```php
-saveTimeEntry($id, $data, $start_timer)
+$toggl->saveTimeEntry($id, $data, $start_timer);
 ```
 ```php
-startTimer($data)
+$toggl->startTimer($data);
 ```
 ```php
-stopTimer($id)
+$toggl->stopTimer($id);
 ```
 
 ### Users
 ```php
-createUser($data)
+$toggl->createUser($data);
 ```
 
 ### Workspaces
 ```php
-getWorkspaces($id)
+$toggl->getWorkspaces($id);
 ```
 ```php
-getWorkspaceUsers($id)
+$toggl->getWorkspaceUsers($id);
 ```
 ```php
-getWorkspaceClients($id)
+$toggl->getWorkspaceClients($id);
 ```
 ```php
-getWorkspaceProjects($id)
+$toggl->getWorkspaceProjects($id);
 ```
 ```php
-getWorkspaceTasks($id)
+$toggl->getWorkspaceTasks($id);
 ```
 ```php
-getWorkspaceTags($id)
+$toggl->getWorkspaceTags($id);
 ```
 ```php
-updateWorkspace($id, $data)
+$toggl->updateWorkspace($id, $data);
 ```
 
 ### Workspace Users
 ```php
-inviteUsers($id, $email)
+$toggl->inviteUsers($id, $email);
 ```
 ```php
-deleteWorkspaceUser($id)
+$toggl->deleteWorkspaceUser($id);
 ```
 
 ## More info
