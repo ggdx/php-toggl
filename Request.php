@@ -1,6 +1,7 @@
 <?php namespace  GGDX\PhpToggl;
 
 use GuzzleHttp\Psr7\Request;
+
 class Request{
 
     // CLient constants

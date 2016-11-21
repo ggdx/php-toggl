@@ -33,7 +33,7 @@ trait ProjectUsers{
     * @param int|array $id Project User ID
     * @return void
     */
-    public function deleteProject($id = false)
+    public function deleteProjectUser($id = false)
     {
         if(!$id){
              $this->set_error_id(__FUNCTION__);

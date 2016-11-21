@@ -29,22 +29,6 @@ trait WorkspaceUsers{
 
 
     /**
-    * Get workspace users
-    *
-    *
-    * @param int $id Workspace ID
-    * @return object
-    */
-    public function getWorkspaceUsers($id = false)
-    {
-        if(!$id){
-             $this->set_error_id(__FUNCTION__);
-        }
-        return $this->call('get', 'workspaces/'.$id.'/workspace_users');
-    }
-
-
-    /**
     * Delete workspace user
     *
     *

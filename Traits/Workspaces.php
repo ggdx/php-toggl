@@ -26,7 +26,7 @@ trait Workspaces{
     * @param object $data See https://github.com/toggl/toggl_api_docs/blob/master/chapters/workspaces.md#update-workspace
     * @return object
     */
-    public function getWorkspaces($id = false, $data = false)
+    public function updateWorkspace($id = false, $data = false)
     {
         if(!$id){
              $this->set_error_id(__FUNCTION__);
