@@ -28,14 +28,12 @@ class Toggl{
      * @param string $api_version
      * @return void
      */
-    public function __construct($api_key = false, $api_version = false)
+    public function __construct($api_key = false)
     {
         if(!$api_key){
             throw new Exception('Toggl API key required');
         }
         $this->request = new Request($api_key);
-
-        $this->api_version = !$api_version ? 'v8' : $api_version;
     }
 
     /**
@@ -61,7 +59,7 @@ class Toggl{
             return $this->error;
         }
 
-        $endpoint = 'api/'.$this->api_version.'/'.$endpoint;
+        $endpoint = 'api/v8/'.$endpoint;
 
         return !count($data) ? $this->request->$http_method($endpoint) : $this->request->$http_method($endpoint, $data);
     }
