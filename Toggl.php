@@ -5,6 +5,7 @@ class Toggl{
     use Traits\Clients;
     use Traits\Dashboard;
     use Traits\Error;
+    use Traits\Me;
     use Traits\Projects;
     use Traits\ProjectUsers;
     use Traits\Tags;
