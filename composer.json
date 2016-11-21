@@ -16,8 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "GGDX\\PhpToggl\\": "src/GGDX/PhpToggl",
-          "GGDX\\PhpToggl\\": "src/GGDX/PhpToggl/Traits"
+          "GGDX\\PhpToggl\\": "src/GGDX/PhpToggl"
         }
     }
 }
