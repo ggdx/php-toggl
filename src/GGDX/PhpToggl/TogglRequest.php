@@ -2,7 +2,7 @@
 
 use GuzzleHttp\Psr7\Request;
 
-class Request{
+class TogglRequest{
 
     // CLient constants
     const REQ_POST = 'POST';
