@@ -11,6 +11,6 @@ trait Dashboard{
     */
     public function getDashboard($w_id = false)
     {
-        return !$w_id ? $this->call('get','dashboard') ? $this->call('get','dashboard/'.$w_id);
+        return !$w_id ? $this->call('get','dashboard') : $this->call('get','dashboard/'.$w_id);
     }
 }

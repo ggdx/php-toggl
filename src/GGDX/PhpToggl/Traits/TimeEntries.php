@@ -49,7 +49,7 @@ trait TimeEntries{
         }
 
         if($start_timer){
-            return $this->call('post', 'time_entries/start', $data)
+            return $this->call('post', 'time_entries/start', $data);
         }
 
         return !$id ? $this->call('post', 'time_entries', $data) : $this->call('post', 'time_entries/'.$id, $data);
@@ -66,7 +66,7 @@ trait TimeEntries{
         if(!$data){
              $this->set_error_data(__FUNCTION__);
 
-             return $this->call('post', 'time_entries/start',)
+             return $this->call('post', 'time_entries/start');
         }
 
         return $this->saveTimeEntry($data, true);

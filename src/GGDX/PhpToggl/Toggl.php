@@ -33,7 +33,7 @@ class Toggl{
         if(!$api_key){
             throw new Exception('Toggl API key required');
         }
-        $this->request = new Request($api_key);
+        $this->request = new TogglRequest($api_key);
     }
 
     /**
